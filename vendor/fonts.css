@@ -1,0 +1,31 @@
+@font-face {
+  src:
+    url(../fonts/MavenPro-Medium.woff) format('woff'),
+    url(../fonts/MavenPro-Medium.ttf) format('truetype');
+  font-family: 'Maven-Pro';
+  font-weight: 500;
+}
+
+@font-face {
+  src:
+    url(../fonts/Overpass-Regular.woff) format('woff'),
+    url(../fonts/Overpass-Regular.ttf) format('truetype');
+  font-family: 'Overpass';
+  font-weight: 400;
+}
+
+@font-face {
+  src:
+    url(../fonts/Overpass-SemiBold.woff) format('woff'),
+    url(../fonts/Overpass-SemiBold.ttf) format('truetype');
+  font-family: 'Overpass';
+  font-weight: 600;
+}
+
+@font-face {
+  src:
+    url(../fonts/Overpass-Bold.woff) format('woff'),
+    url(../fonts/Overpass-Bold.ttf) format('truetype');
+  font-family: 'Overpass';
+  font-weight: 700;
+}

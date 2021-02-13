@@ -1,83 +1,76 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width initial-scale=1">
   <title>Finance</title>
-  <link rel="stylesheet" href="./styles/normalize.css">
-  <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./pages/index.css">
   <link rel="stylesheet" href="./styles/style.css">
 </head>
-<body class="body">
-  <div class="page">
-    <header class="header">
-      <div class="header-menu">
-        <ul class="header__column-links header__icons-margin">
-          <li class="header__column-list">
-            <a href="#" class="header__column-link outline-color-dark">
-              <img
-                src="./images/twitter_color_green.svg"
-                alt="twitter"
-                class="header__social__icon"
-              >
-            </a>
-          </li>
-          <li class="header__column-list">
-            <a href="#" class="header__column-link outline-color-dark">
-              <img
-                src="./images/facebook_color_green.svg"
-                alt="facebook"
-                class="header__social__icon"
-              >
-            </a>
-          </li>
-          <li class="header__column-list">
-            <a href="#" class="header__column-link outline-color-dark">
-              <img
-                src="./images/medium_color_green.svg"
-                alt="medium"
-                class="header__social__icon"
-              >
-            </a>
-          </li>
-        </ul>
-        <!-- /.header-icons -->
-        <div class="logo">
-          <a href="index.html" class="logo__link">
-            <img
-              src="./images/logo_place_header.svg"
-              alt="Finance"
-              class="logo__img"
-            >
-            Finance
-          </a>
-        </div>
-        <!-- /.logo -->
-        <button class="open-menu header-menu__open-menu-margin">
-          <span class="open-menu__line-top"></span>
-          <span class="open-menu__line-center"></span>
-          <span class="open-menu__line-bottom"></span>
-        </button>
-      </div>
-      <!-- /.header-menu -->
-      <div class="header-content header__content-margin">
-        <h1 class="header-content__title">
-          Mutual Investment
-        </h1>
-        <p class="header-content__subtitle">
-          At Finance we care about your future. We help you invest the way you want. So you can relax, have fun and let your fund grow.
-        </p>
-        <button class="open-learn-more">Learn more</button>
-      </div>
-      <!-- /.header-content -->
-      <div class="header-bg-left"></div>
-      <div class="header-bg-right"></div>
-      <div class="header-bg-illustration"></div>
-      <button class="arrow-down">&darr;</button>
-    </header>
-    <!-- /.header -->
-    </div>
-  <!-- /.page -->
+<body class="page">
+  <header class="header page__margin-auto page__margin-bottom">
+    <ul class="header__list">
+      <li class="header__item">
+        <a href="#" class="header__link">
+          <img
+            src="./images/twitter_color_green.svg"
+            alt="twitter"
+            class="header__icon"
+          >
+        </a>
+      </li>
+      <li class="header__item">
+        <a href="#" class="header__link">
+          <img
+            src="./images/facebook_color_green.svg"
+            alt="facebook"
+            class="header__icon"
+          >
+        </a>
+      </li>
+      <li class="header__item">
+        <a href="#" class="header__link">
+          <img
+            src="./images/medium_color_green.svg"
+            alt="medium"
+            class="header__icon"
+          >
+        </a>
+      </li>
+    </ul>
+    <!-- /.header-icons -->
+    <a href="#" class="header__logo">
+      <img
+        src="./images/logo_place_header.svg"
+        alt="Finance"
+        class="logo__img"
+      >
+      <span class="header__logo-text">
+        Finance
+      </span>
+    </a>
+    <!-- /.header__logo -->
+    <button class="open-menu"></button>
+  </header>
+  <!-- /.header -->
+  <main class="content">
+    <section class="investments content__margin-auto">
+      <h1 class="investments__title">
+        Mutual Investment
+      </h1>
+      <p class="investments__subtitle">
+        At Finance we care about your future. We help you invest the way you want. So you can relax, have fun and let your fund grow.
+      </p>
+      <a href="#" class="investments__link">
+        Learn more
+      </a>
+    </section>
+
+    <!-- <div class="header-bg-left"></div>
+    <div class="header-bg-right"></div>
+    <div class="header-bg-illustration"></div>
+    <button class="arrow-down">&darr;</button> -->
+  </main>
+  <!-- /.content -->
 </body>
 </html>
